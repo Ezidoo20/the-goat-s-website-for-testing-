@@ -79,70 +79,154 @@ button {
 	position: absolute;
 }
 
-#homeButton {
-	font-size: 2.1vw;
-	left: 25%;
-	transform: translate(-25%,0%);
-	position: absolute;
-	width: 20%;
-	height: 55px;
-	margin-top: -55px;
-	background: #702020;
-	border-color: #702020;
-	color: #f0f0f0;
-	text-shadow: 2px 0px black;
-	border-left: 2px solid black;
-	border-right: 0;
-	border-bottom: 0;
+
+@media only screen and (min-width: 769px){
+	[id*="galleryButton"]{
+		left: 100%;
+		transform: translate(-100%,0%);
+		position: absolute;
+		width: 20%;
+		height: 55px;
+		margin-top: -55px;
+		background: #702020;
+		border-color: #702020;
+		color: #f0f0f0;
+		text-shadow: 2px 0px black;
+		border-left: 2px solid black;
+		border-right: 0;
+		border-bottom: 0;
+		font-size: 20px;
+	}
 }
-#contactButton {
-	font-size: 2.1vw;
-	left: 50%;
-	transform: translate(-50%,0%);
-	position: absolute;
-	width: 20%;
-	height: 55px;
-	margin-top: -55px;
-	background: #702020;
-	border-color: #702020;
-	color: #f0f0f0;
-	text-shadow: 2px 0px black;
-	border-left: 2px solid black;
-	border-right: 0;
-	border-bottom: 0;
+@media only screen and (max-width: 768px){
+	[id*="galleryButton"]{
+		font-size: 12px;
+		left: 100%;
+		transform: translate(-100%,0%);
+		position: absolute;
+		width: 20%;
+		height: 55px;
+		margin-top: -55px;
+		background: #702020;
+		border-color: #702020;
+		color: #f0f0f0;
+		text-shadow: 2px 0px black;
+		border-left: 2px solid black;
+		border-right: 0;
+		border-bottom: 0;
+	}
 }
-#aboutButton {
-	font-size: 2.1vw;
-	left: 75%;
-	transform: translate(-75%,0%);
-	position: absolute;
-	width: 20%;
-	height: 55px;
-	margin-top: -55px;
-	background: #702020;
-	border-color: #702020;
-	color: #f0f0f0;
-	text-shadow: 2px 0px black;
-	border-left: 2px solid black;
-	border-right: 0;
-	border-bottom: 0;
+@media only screen and (min-width: 769px){
+	[id*="homeButton"]{
+		font-size: 20px;
+		left: 25%;
+		transform: translate(-25%,0%);
+		position: absolute;
+		width: 20%;
+		height: 55px;
+		margin-top: -55px;
+		background: #702020;
+		border-color: #702020;
+		color: #f0f0f0;
+		text-shadow: 2px 0px black;
+		border-left: 2px solid black;
+		border-right: 0;
+		border-bottom: 0;
+	}
 }
-#galleryButton {
-	font-size: 2.1vw;
-	left: 100%;
-	transform: translate(-100%,0%);
-	position: absolute;
-	width: 20%;
-	height: 55px;
-	margin-top: -55px;
-	background: #702020;
-	border-color: #702020;
-	color: #f0f0f0;
-	text-shadow: 2px 0px black;
-	border-left: 2px solid black;
-	border-right: 0;
-	border-bottom: 0;
+@media only screen and (max-width: 768px){
+	[id*="homeButton"]{
+		font-size: 12px;
+		left: 25%;
+		transform: translate(-25%,0%);
+		position: absolute;
+		width: 20%;
+		height: 55px;
+		margin-top: -55px;
+		background: #702020;
+		border-color: #702020;
+		color: #f0f0f0;
+		text-shadow: 2px 0px black;
+		border-left: 2px solid black;
+		border-right: 0;
+		border-bottom: 0;
+	}
 }
+
+@media only screen and (min-width: 769px){
+	[id*="contactButton"]{
+		font-size: 20px;
+		left: 50%;
+		transform: translate(-50%,0%);
+		position: absolute;
+		width: 20%;
+		height: 55px;
+		margin-top: -55px;
+		background: #702020;
+		border-color: #702020;
+		color: #f0f0f0;
+		text-shadow: 2px 0px black;
+		border-left: 2px solid black;
+		border-right: 0;
+		border-bottom: 0;
+	}
+}
+@media only screen and (max-width: 768px){
+	[id*="contactButton"]{
+		font-size: 12px;
+		left: 50%;
+		transform: translate(-50%,0%);
+		position: absolute;
+		width: 20%;
+		height: 55px;
+		margin-top: -55px;
+		background: #702020;
+		border-color: #702020;
+		color: #f0f0f0;
+		text-shadow: 2px 0px black;
+		border-left: 2px solid black;
+		border-right: 0;
+		border-bottom: 0;
+	}
+}
+
+@media only screen and (min-width: 769px){
+	[id*="aboutButton"]{
+		font-size: 20px;
+		left: 75%;
+		transform: translate(-75%,0%);
+		position: absolute;
+		width: 20%;
+		height: 55px;
+		margin-top: -55px;
+		background: #702020;
+		border-color: #702020;
+		color: #f0f0f0;
+		text-shadow: 2px 0px black;
+		border-left: 2px solid black;
+		border-right: 0;
+		border-bottom: 0;
+	}
+}
+@media only screen and (max-width: 768px){
+	[id*="aboutButton"]{
+		font-size: 12px;
+		left: 75%;
+		transform: translate(-75%,0%);
+		position: absolute;
+		width: 20%;
+		height: 55px;
+		margin-top: -55px;
+		background: #702020;
+		border-color: #702020;
+		color: #f0f0f0;
+		text-shadow: 2px 0px black;
+		border-left: 2px solid black;
+		border-right: 0;
+		border-bottom: 0;
+	}
+}
+
 #bottomInfoId {
 	position: relative;
 	bottom: 6px;
