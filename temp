@@ -1,0 +1,16 @@
+#homeButton {
+	left: 25%;
+	transform: translate(-25%,0%);
+}
+#contactButton {
+	left: 50%;
+	transform: translate(-50%,0%);
+}
+#aboutButton {
+	left: 75%;
+	transform: translate(-75%,0%);
+}
+#galleryButton {
+	left: 100%;
+	transform: translate(-100%,0%);
+}
