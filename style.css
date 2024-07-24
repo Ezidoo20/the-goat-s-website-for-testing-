@@ -27,7 +27,7 @@ button {
 	left: 0;
 	right: 0;
 	height: 26px;
-	position: absolute;
+	position: fixed;
 }
 .header {
 	margin-top: 10px;
