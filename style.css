@@ -28,6 +28,7 @@ button {
 	right: 0;
 	height: 26px;
 	position: fixed;
+	z-index: 1000;
 }
 .header {
 	margin-top: 10px;
@@ -231,12 +232,12 @@ button {
 	border-color: #c0c0bf;
 }
 
-.marioInfo {
+#marioInfo {
 	position: absolute;
 	left: 10%;
 	margin-top: 100px;
-	left: 50%;
-	transform: translate(-50%,0%);
+	left: 65%;
+	transform: translate(-35%,0%);
 }
 
 
@@ -251,13 +252,13 @@ button {
 	}
 }
 @media only screen and (min-width: 769px){
-	[class*="marioInfo"]{
-		font-size: 30px;
+	[id*="marioInfo"]{
+		font-size: 25px;
 	}
 }
 @media only screen and (max-width: 768px){
-	[class*="marioInfo"]{
-		font-size: 25px;
+	[id*="marioInfo"]{
+		font-size: 20px;
 	}
 }
 .mIHeader {
@@ -272,12 +273,12 @@ button {
 }
 
 
-.wendellInfo {
+#wendellInfo {
 	position: absolute;
 	left: 10%;
 	margin-top: 385px;
-	left: 50%;
-	transform: translate(-50%,0%);
+	left: 35%;
+	transform: translate(-65%,0%);
 }
 
 @media only screen and (min-width: 769px){
@@ -291,13 +292,13 @@ button {
 	}
 }
 @media only screen and (min-width: 769px){
-	[class*="wendellInfo"]{
-		font-size: 30px;
+	[id*="wendellInfo"]{
+		font-size: 25px;
 	}
 }
 @media only screen and (max-width: 768px){
-	[class*="wendellInfo"]{
-		font-size: 25px;
+	[id*="wendellInfo"]{
+		font-size: 20px;
 	}
 }
 .wIHeader {
@@ -309,4 +310,24 @@ button {
 .wI {
 	position: relative;
 	left: 30px;
+}
+
+.cover0 {
+	background: white;
+	position: absolute;
+	left: 0;
+	top: 0;
+	margin-top: 200px;
+	height: 300px;
+	width: 48%;
+	z-index: 1;
+}
+.cover1 {
+	background: white;
+	position: absolute;
+	right: 0;
+	top: 490px;
+	bottom: 0;
+	width: 50%;
+	z-index: 1;
 }
