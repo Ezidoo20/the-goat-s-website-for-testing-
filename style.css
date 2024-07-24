@@ -100,7 +100,7 @@ button {
 }
 @media only screen and (max-width: 768px){
 	[id*="galleryButton"]{
-		font-size: 12px;
+		font-size: 14px;
 		left: 100%;
 		transform: translate(-100%,0%);
 		position: absolute;
@@ -136,7 +136,7 @@ button {
 }
 @media only screen and (max-width: 768px){
 	[id*="homeButton"]{
-		font-size: 12px;
+		font-size: 14px;
 		left: 25%;
 		transform: translate(-25%,0%);
 		position: absolute;
@@ -173,7 +173,7 @@ button {
 }
 @media only screen and (max-width: 768px){
 	[id*="contactButton"]{
-		font-size: 12px;
+		font-size: 14px;
 		left: 50%;
 		transform: translate(-50%,0%);
 		position: absolute;
@@ -210,7 +210,7 @@ button {
 }
 @media only screen and (max-width: 768px){
 	[id*="aboutButton"]{
-		font-size: 12px;
+		font-size: 14px;
 		left: 75%;
 		transform: translate(-75%,0%);
 		position: absolute;
