@@ -169,8 +169,8 @@ button {
 	text-shadow: 2px 0px #3030a0;
 	font-weight: 1000;
 	letter-spacing: 3px;
-	margin-left: 7%;
-	margin-right: 7%;
+	margin-left: 8%;
+	margin-right: 8%;
 	margin-top: 20px;
 	text-decoration: none;
 	position: relative;
@@ -229,4 +229,84 @@ button {
 	text-decoration: underline;
 	background: #f0f0df;
 	border-color: #c0c0bf;
+}
+
+.marioInfo {
+	position: absolute;
+	left: 10%;
+	margin-top: 100px;
+	left: 50%;
+	transform: translate(-50%,0%);
+}
+
+
+@media only screen and (min-width: 769px){
+	[class*="mIHeader"]{
+		font-size: 40px;
+	}
+}
+@media only screen and (max-width: 768px){
+	[class*="mIHeader"]{
+		font-size: 30px;
+	}
+}
+@media only screen and (min-width: 769px){
+	[class*="marioInfo"]{
+		font-size: 30px;
+	}
+}
+@media only screen and (max-width: 768px){
+	[class*="marioInfo"]{
+		font-size: 25px;
+	}
+}
+.mIHeader {
+	position: relative;
+	text-decoration: underline;
+}
+
+
+.mI {
+	position: relative;
+	left: 30px;
+}
+
+
+.wendellInfo {
+	position: absolute;
+	left: 10%;
+	margin-top: 385px;
+	left: 50%;
+	transform: translate(-50%,0%);
+}
+
+@media only screen and (min-width: 769px){
+	[class*="wIHeader"]{
+		font-size: 40px;
+	}
+}
+@media only screen and (max-width: 768px){
+	[class*="wIHeader"]{
+		font-size: 30px;
+	}
+}
+@media only screen and (min-width: 769px){
+	[class*="wendellInfo"]{
+		font-size: 30px;
+	}
+}
+@media only screen and (max-width: 768px){
+	[class*="wendellInfo"]{
+		font-size: 25px;
+	}
+}
+.wIHeader {
+	position: relative;
+	text-decoration: underline;
+}
+
+
+.wI {
+	position: relative;
+	left: 30px;
 }
