@@ -350,7 +350,6 @@ button {
 	z-index: 2;
 	left: 50%;
 	transform: translateX(-50%);
-	font-weight: 900;
 	padding: -5px;
 	padding-bottom: 30px;
 
