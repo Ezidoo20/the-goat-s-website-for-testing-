@@ -337,8 +337,8 @@ button {
 	background: white;
 	position: absolute;
 	right: 0;
-	top: 520px;
-	bottom: 0;
+	top: 510px;
+	bottom: -100px;
 	width: 50%;
 	z-index: 1;
 }
