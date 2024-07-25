@@ -359,13 +359,13 @@ button {
 @media only screen and (min-width: 769px){
 	[class*="generalBusinessEmail"]{
 		font-size: 30px;
-		bottom: -300px;
+		bottom: -270px;
 	}
 }
 @media only screen and (max-width: 768px){
 	[class*="generalBusinessEmail"]{
 		font-size: 25px;
-		bottom: -330px;
+		bottom: -300px;
 	}
 }
 
