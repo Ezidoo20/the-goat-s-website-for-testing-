@@ -1,55 +1,372 @@
-<!DOCTYPE html>
-	<html>
-		<head>
-			<meta charset="UTF-8">
-            <meta http-equiv="X-UA-Compatible" content="IE=edge">
-			<meta name="viewport" content="width=device-width, initial-scale=1.0">
-			<title>PKoA</title>
-			<link rel="stylesheet" href="style.css"/>
-		</head>
-		<body>
-			<div class="topBar">
-			
-			</div>
-			
-			<div id="topBarButtons">
-				<a href="pkoaHome.html"><button id="homeButton">Home</button></a>
-				<a href="pkoaContact.html"><button id="contactButton">Contact Us</button></a>
-				<a href="pkoaAbout.html"><button id="aboutButton">About</button></a>
-				<a href="pkoaGallery.html"><button id="galleryButton">Gallery</button></a>
-			</div>
-			
-			<div class="headerGeneral">
-				<header>Contact Information:</header>
-			</div>
-			
-			
-			
-			<div class="cover0">
-			
-			</div>
-			<div class="cover1">
-			</div>
-			
-			<div id="marioInfo">
-				<header class="mIHeader">Mario</header>
-				<header class="mI"><br>Email:<br>marioaperdomo5<br>@yahoo.com<br><br>Phone Number:<br>0123456789</header>
-			</div>
-			
-			<div id="wendellInfo">
-				<header class="wIHeader">Wendell</header>
-				<header class="wI"><br>Email:<br>(emailhere)<br><br>Phone Number:<br>0123456789</header>
-			</div>
-			
-			
-			<div class="generalBusinessEmailDiv">
-				<p id="generalBusinessEmail"><u><b>Business Email:</b></u><br> pressurekingsofamerica<br>@gmail.com</p>
-			</div>
-			
-			<div class="bottomInfo">
-				<p id="bottomInfoId">(Insert legal and copyright information here if any)</p>
-			</div>
-		<script src="mainScript.js"></script>
-		<script src="animScript.js"></script>
-		</body>
-	</html>
+body {
+	background-color: #ffffff;
+	border: 5px white;
+	font-family: "Courier New";
+}
+button {
+	font-family: "Courier New";
+	font-weight: 700;
+}
+
+
+
+.topBar {
+	margin-top: -13px;
+	height: 60px;
+	background: #702020;
+	margin-left: -100px;
+}
+
+
+.bottomInfo {
+	background: #000000;
+	color: #f0f0f0;
+	font-size: 11px;
+	text-align: center;
+	bottom: 0;
+	left: 0;
+	right: 0;
+	height: 26px;
+	position: fixed;
+	z-index: 1000;
+}
+.header {
+	margin-top: 10px;
+	margin-left: 5px;
+	margin-right: 5px;
+	position: relative;
+	text-decoration: underline;
+}
+
+
+#homeButton {
+	left: 25%;
+	transform: translate(-25%,0%);
+	position: absolute;
+	width: 20%;
+	height: 55px;
+	margin-top: -55px;
+	background: #702020;
+	border-color: #702020;
+	color: #f0f0f0;
+	text-shadow: 2px 0px black;
+	border-left: 2px solid black;
+	border-right: 0;
+	border-bottom: 0;
+}
+@media only screen and (min-width: 769px){
+	[id*="homeButton"]{
+		font-size: 20px;
+	}
+}
+@media only screen and (max-width: 768px){
+	[id*="homeButton"]{
+		font-size: 14px;
+	}
+}
+
+
+#contactButton {
+	left: 50%;
+	transform: translate(-50%,0%);
+	position: absolute;
+	width: 20%;
+	height: 55px;
+	margin-top: -55px;
+	background: #702020;
+	border-color: #702020;
+	color: #f0f0f0;
+	text-shadow: 2px 0px black;
+	border-left: 2px solid black;
+	border-right: 0;
+	border-bottom: 0;
+}
+@media only screen and (min-width: 769px){
+	[id*="contactButton"]{
+		font-size: 20px;
+	}
+}
+@media only screen and (max-width: 768px){
+	[id*="contactButton"]{
+		font-size: 14px;
+	}
+}
+
+
+#aboutButton {
+	left: 75%;
+	transform: translate(-75%,0%);
+	position: absolute;
+	width: 20%;
+	height: 55px;
+	margin-top: -55px;
+	background: #702020;
+	border-color: #702020;
+	color: #f0f0f0;
+	text-shadow: 2px 0px black;
+	border-left: 2px solid black;
+	border-right: 0;
+	border-bottom: 0;
+}
+@media only screen and (min-width: 769px){
+	[id*="aboutButton"]{
+		font-size: 20px;
+	}
+}
+@media only screen and (max-width: 768px){
+	[id*="aboutButton"]{
+		font-size: 14px;
+	}
+}
+
+#galleryButton {
+	left: 100%;
+	transform: translate(-100%,0%);
+	position: absolute;
+	width: 20%;
+	height: 55px;
+	margin-top: -55px;
+	background: #702020;
+	border-color: #702020;
+	color: #f0f0f0;
+	text-shadow: 2px 0px black;
+	border-left: 2px solid black;
+	border-right: 0;
+	border-bottom: 0;
+}
+@media only screen and (min-width: 769px){
+	[id*="galleryButton"]{
+		font-size: 20px;
+	}
+}
+@media only screen and (max-width: 768px){
+	[id*="galleryButton"]{
+		font-size: 14px;
+	}
+}
+
+
+#bottomInfoId {
+	position: relative;
+	bottom: 6px;
+}
+
+
+
+
+
+
+@media only screen and (min-width: 769px){
+	[class*="headerUnder"]{
+		font-size: 25px;
+	}
+}
+@media only screen and (max-width: 768px){
+	[class*="headerUnder"]{
+		font-size: 16px;
+	}
+}
+.headerUnder {
+	text-shadow: 2px 0px #3030a0;
+	font-weight: 1000;
+	letter-spacing: 3px;
+	margin-left: 8%;
+	margin-right: 8%;
+	margin-top: 20px;
+	text-decoration: none;
+	position: relative;
+}
+
+@media only screen and (min-width: 769px){
+	[class*="sign"]{
+		font-size: 40px;
+	}
+}
+@media only screen and (max-width: 768px){
+	[class*="sign"]{
+		font-size: 30px;
+	}
+}
+.sign {
+	text-align: center;
+	vertical-align: text-top;
+	color: #d85048;
+	letter-spacing: 4px;
+	text-shadow: 3px 0px #3030a0;
+	font-weight: 1000;
+	margin-top: 20px;
+	margin-left: 6%;
+	margin-right: 6%;
+	border-style: groove;
+	border: 5px solid;
+	border-radius: 10px;
+	border-color: #c0c0bf;
+	background: #f0f0df;
+}
+
+@media only screen and (min-width: 769px){
+	[class*="headerGeneral"]{
+		font-size: 40px;
+	}
+}
+@media only screen and (max-width: 768px){
+	[class*="headerGeneral"]{
+		font-size: 30px;
+	}
+}
+.headerGeneral {
+	text-align: center;
+	vertical-align: text-top;
+	color: #d85048;
+	letter-spacing: 4px;
+	text-shadow: 3px 0px #3030a0;
+	font-weight: 1000;
+	margin-top: 20px;
+	margin-left: 9%;
+	margin-right: 9%;
+	border-style: groove;
+	border-radius: 10px;
+	border: 5px solid black;
+	text-decoration: underline;
+	background: #f0f0df;
+	border-color: #c0c0bf;
+}
+
+#marioInfo {
+	position: absolute;
+	left: 10%;
+	margin-top: 80px;
+	left: 65%;
+	transform: translate(-35%,0%);
+	border-top: 2px solid black;
+	border-bottom: 2px solid black;
+	padding: 10px;
+	padding-left: 5%;
+	padding-right: 5%;
+}
+
+
+@media only screen and (min-width: 769px){
+	[class*="mIHeader"]{
+		font-size: 40px;
+	}
+}
+@media only screen and (max-width: 768px){
+	[class*="mIHeader"]{
+		font-size: 30px;
+	}
+}
+@media only screen and (min-width: 769px){
+	[id*="marioInfo"]{
+		font-size: 25px;
+	}
+}
+@media only screen and (max-width: 768px){
+	[id*="marioInfo"]{
+		font-size: 20px;
+	}
+}
+.mIHeader {
+	position: relative;
+	text-decoration: underline;
+	font-weight: 800;
+}
+
+
+.mI {
+	position: relative;
+}
+
+
+#wendellInfo {
+	position: absolute;
+	left: 10%;
+	margin-top: 385px;
+	left: 35%;
+	border-top: 2px solid black;
+	border-bottom: 2px solid black;
+	padding: 10px;
+	padding-left: 5%;
+	padding-right: 5%;
+	transform: translate(-65%,0%);
+}
+
+@media only screen and (min-width: 769px){
+	[class*="wIHeader"]{
+		font-size: 40px;
+	}
+}
+@media only screen and (max-width: 768px){
+	[class*="wIHeader"]{
+		font-size: 30px;
+	}
+}
+@media only screen and (min-width: 769px){
+	[id*="wendellInfo"]{
+		font-size: 25px;
+	}
+}
+@media only screen and (max-width: 768px){
+	[id*="wendellInfo"]{
+		font-size: 20px;
+		
+	}
+}
+.wIHeader {
+	position: relative;
+	text-decoration: underline;
+	font-weight: 800;
+}
+
+
+.wI {
+	position: relative;
+}
+
+.cover0 {
+	background: white;
+	position: absolute;
+	left: 0;
+	top: 0;
+	margin-top: 190px;
+	height: 320px;
+	width: 48%;
+	z-index: 1;
+}
+.cover1 {
+	background: white;
+	position: absolute;
+	right: 0;
+	top: 510px;
+	bottom: -100px;
+	width: 50%;
+	z-index: 1;
+}
+
+
+.generalBusinessEmailDiv {
+	text-align: center;
+	position: absolute;
+	z-index: 2;
+	left: 50%;
+	transform: translateX(-50%);
+	padding: -5px;
+	padding-bottom: 30px;
+
+}
+@media only screen and (min-width: 769px){
+	[class*="generalBusinessEmail"]{
+		font-size: 30px;
+		bottom: -150px;
+	}
+}
+@media only screen and (max-width: 768px){
+	[class*="generalBusinessEmail"]{
+		font-size: 25px;
+		bottom: -300px;
+	}
+}
+
+#generalBusinessEmail {
+
+}
