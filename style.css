@@ -329,7 +329,7 @@ button {
 	left: 0;
 	top: 0;
 	margin-top: 190px;
-	height: 320px;
+	height: 310px;
 	width: 48%;
 	z-index: 1;
 }
@@ -337,8 +337,8 @@ button {
 	background: white;
 	position: absolute;
 	right: 0;
-	top: 510px;
-	bottom: -100px;
+	top: 500px;
+	bottom: -95px;
 	width: 50%;
 	z-index: 1;
 }
@@ -357,7 +357,7 @@ button {
 @media only screen and (min-width: 769px){
 	[class*="generalBusinessEmail"]{
 		font-size: 30px;
-		bottom: -150px;
+		bottom: -270px;
 	}
 }
 @media only screen and (max-width: 768px){
